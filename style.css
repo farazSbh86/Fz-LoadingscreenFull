@@ -1,0 +1,125 @@
+.square {
+    position: relative;
+    offset-path: path('M13,10 C50,10 20,0 20,10');
+    animation: move 3000ms infinite alternate ease-in-out;
+    position: relative;
+    left: 700px;
+    top: 800px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    background: linear-gradient(180deg, red, rgb(0, 0, 0));
+}
+
+@keyframes move {
+    0% {
+        offset-distance: 0%;
+    }
+    100% {
+        offset-distance: 70%;
+    }
+}
+
+.square2 {
+    position: relative;
+    offset-path: path('M13,10 C50,10 20,0 20,10');
+    animation: move 3000ms infinite alternate ease-in-out;
+    position: relative;
+    left: 750px;
+    top: 770px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    background: linear-gradient(180deg, red, rgb(0, 0, 0));
+}
+
+@keyframes move {
+    0% {
+        offset-distance: 0%;
+    }
+    100% {
+        offset-distance: 70%;
+    }
+}
+
+.square3 {
+    position: relative;
+    offset-path: path('M13,10 C50,10 20,0 20,10');
+    animation: move 3000ms infinite alternate ease-in-out;
+    position: relative;
+    left: 800px;
+    top: 720px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    background: linear-gradient(180deg, red, rgb(0, 0, 0));
+}
+
+@keyframes move {
+    0% {
+        offset-distance: 0%;
+    }
+    100% {
+        offset-distance: 70%;
+    }
+}
+
+.text {
+    position: relative;
+    top: -200px;
+    font-size: 40px;
+    font-family: 'ZCOOL QingKe HuangYou', bold;
+}
+
+.text2 {
+    position: relative;
+    font-size: 40px;
+    font-family: 'ZCOOL QingKe HuangYou', bold;
+}
+
+.square4 {
+    position: relative;
+    left: -40px;
+    top: -40px;
+    width: 150px;
+    height: 150px;
+    transform: rotate(20deg);
+    background: red;
+}
+
+.ball {
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    background: #c00;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 1s;
+}
+
+.rectangle {
+    position: relative;
+    top: 800px;
+    left: 1350px;
+    height: 150px;
+    width: 190px;
+    border-radius: 10px;
+    background-color: rgb(27, 27, 27);
+}
+
+.Wave {
+    position: relative;
+    top: 320px;
+    left: 1410px;
+    height: 50px;
+}
+
+.tezt {
+    position: relative;
+    left: 1363px;
+    top: 194px;
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 4px 3px black;
+}
